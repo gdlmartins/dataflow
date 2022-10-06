@@ -1,9 +1,13 @@
-import './App.css';
+import "./App.scss";
+import Form from "./app/features/posts/form";
+import PostList from "./app/features/posts/PostList";
 
 function App() {
   return (
-    <h1>data flow</h1>
-
+    <div className='mainapp'>
+      <PostList />
+      <Form />
+    </div>
   );
 }
 
